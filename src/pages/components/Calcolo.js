@@ -20,7 +20,7 @@ const Calcolo = ({ nameOfClass, setRisultato }) => {
                 var ris = radice.Tangenti(radicando, ripetizioni)
                 break
             case "inverso":
-                var ris = radice.Inverso(radicando, ripetizioni)
+                var ris = 1 / radice.Inverso(radicando, ripetizioni)
                 break
         }
 
