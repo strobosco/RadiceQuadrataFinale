@@ -1,7 +1,7 @@
 import HomePage from "./pages/HomePage";
 import Paragone from "./pages/Paragone";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Link,
@@ -11,7 +11,7 @@ import {
 const App = () => {
 
   return(
-    <Router>
+    <Router basename="/">
       <Route exact path="/" component={HomePage} />
       <Route exact path="/paragone" component={Paragone} />
     </Router>
