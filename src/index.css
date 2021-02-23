@@ -3,6 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  text-align: left;
+}
+
 .titolo, .intro, .babilonese, .errore, .tangenti, .inverso, .link, .tabella-output {
   position: relative;
   background-color: white;

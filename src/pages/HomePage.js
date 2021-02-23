@@ -19,6 +19,9 @@ const HomePage = () => {
     }, {
       id: 3,
       isShown: false,
+    }, {
+      id: 4,
+      isShown: false,
     }
   ]);
 
@@ -36,7 +39,7 @@ const HomePage = () => {
   return (
     <>
     <Titolo />
-    <NumericalAnalysis />
+    <NumericalAnalysis showDesc={showDescription[4]} onToggle={toggleDesc} />
     <Metodo nameOfClass={"babilonese"} showDesc={showDescription[0]} onToggle={toggleDesc} risultato={risultatoBabilonese} setRisultato={setRisultatoBabilonese}  />
     <Metodo nameOfClass={"errore"} showDesc={showDescription[1]} onToggle={toggleDesc} risultato={risultatoErrore} setRisultato={setRisultatoErrore} />
     <Metodo nameOfClass={"tangenti"} showDesc={showDescription[2]} onToggle={toggleDesc} risultato={risultatoTangenti} setRisultato={setRisultatoTangenti} />
