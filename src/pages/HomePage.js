@@ -1,5 +1,6 @@
 import Metodo from './components/Metodo';
 import Titolo from "./components/Titolo";
+import NumericalAnalysis from "./components/NumericalAnalysis"
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -35,11 +36,12 @@ const HomePage = () => {
   return (
     <>
     <Titolo />
+    <NumericalAnalysis />
     <Metodo nameOfClass={"babilonese"} showDesc={showDescription[0]} onToggle={toggleDesc} risultato={risultatoBabilonese} setRisultato={setRisultatoBabilonese}  />
     <Metodo nameOfClass={"errore"} showDesc={showDescription[1]} onToggle={toggleDesc} risultato={risultatoErrore} setRisultato={setRisultatoErrore} />
     <Metodo nameOfClass={"tangenti"} showDesc={showDescription[2]} onToggle={toggleDesc} risultato={risultatoTangenti} setRisultato={setRisultatoTangenti} />
     <Metodo nameOfClass={"inverso"} showDesc={showDescription[3]} onToggle={toggleDesc} risultato={risultatoInverso} setRisultato={setRisultatoInverso} />
-    <a className="calcola" href="https://github.com/strobosco/radicequadratav2">Link to GitHub Repo</a>
+    <a className="calcola" href="https://github.com/strobosco/RadiceQuadrataFinale">Link to GitHub Repo</a>
     <Link className="calcola" to="/paragone">Paragone</Link>
     </>
   );
