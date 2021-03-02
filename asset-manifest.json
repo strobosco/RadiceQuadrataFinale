@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RadiceQuadrataFinale/static/css/main.8998be5c.chunk.css",
-    "main.js": "/RadiceQuadrataFinale/static/js/main.65b5b050.chunk.js",
-    "main.js.map": "/RadiceQuadrataFinale/static/js/main.65b5b050.chunk.js.map",
+    "main.js": "/RadiceQuadrataFinale/static/js/main.ea898e10.chunk.js",
+    "main.js.map": "/RadiceQuadrataFinale/static/js/main.ea898e10.chunk.js.map",
     "runtime-main.js": "/RadiceQuadrataFinale/static/js/runtime-main.f5c1eed5.js",
     "runtime-main.js.map": "/RadiceQuadrataFinale/static/js/runtime-main.f5c1eed5.js.map",
     "static/js/2.e4b0eb7b.chunk.js": "/RadiceQuadrataFinale/static/js/2.e4b0eb7b.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f5c1eed5.js",
     "static/js/2.e4b0eb7b.chunk.js",
     "static/css/main.8998be5c.chunk.css",
-    "static/js/main.65b5b050.chunk.js"
+    "static/js/main.ea898e10.chunk.js"
   ]
 }
