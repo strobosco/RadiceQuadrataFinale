@@ -9,8 +9,10 @@ const Descrizione = ({ nameOfClass }) => {
         controllando l'aumento di precisione tra due iterazioni dell'algoritmo babilonese.";
         const descTangenti = "Il metodo delle tangenti sfrutta le proprietà delle tangenti per \
         realizzare approssimazioni successive. Il valore che viene calcolato corrisponde all'intersezione tra \
-        l'asse delle x e la tangente alla retta di una funzione in un punto.";
-        const descInverso = "Il metodo dell'inverso viene ideato da Newton";
+        l'asse delle x e la tangente alla retta di una funzione in un punto. Il metodo ha il maggior grado di \
+        efficienza quando il valore iniziale è vicino al valore della radice";
+        const descInverso = "Il metodo dell'inverso calcola il reciproco del valore della radice. E' un \
+        algoritmo molto preciso, con una velocità di computazione alta.";
 
         switch(nameOfClass){
             case "babilonese":
