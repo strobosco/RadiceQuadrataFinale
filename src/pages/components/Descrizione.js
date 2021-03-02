@@ -2,11 +2,14 @@ const Descrizione = ({ nameOfClass }) => {
 
     const chooseDesc = (nameOfClass) => {
 
-        const descBabilonese = "Il metodo babilonese approssima la radice \
-        calcolando più volte la media artimetica di due numeri";
-        const descErrore = "Il metodo con controllo dell'errore approssima \
-        la radice controllando l'aumento di precisione tra due iterazioni successive";
-        const descTangenti = "Il metodo delle tangenti viene ideato da Newton";
+        const descBabilonese = "Il metodo babilonese è il metodo più antico per approssimare la radice. \
+        E' un algoritmo basato sulle approssimazioni successive della media aritmetica di due numeri, \
+        il valore valore sarà sempre maggiore del valore della radice stessa.";
+        const descErrore = "Il metodo con controllo dell'errore approssima il valore della radice \
+        controllando l'aumento di precisione tra due iterazioni dell'algoritmo babilonese.";
+        const descTangenti = "Il metodo delle tangenti sfrutta le proprietà delle tangenti per \
+        realizzare approssimazioni successive. Il valore che viene calcolato corrisponde all'intersezione tra \
+        l'asse delle x e la tangente alla retta di una funzione in un punto.";
         const descInverso = "Il metodo dell'inverso viene ideato da Newton";
 
         switch(nameOfClass){
@@ -24,7 +27,7 @@ const Descrizione = ({ nameOfClass }) => {
             case "tangenti":
                 return (<>
                 <p>{descTangenti}</p>
-                <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ff048abd4c1a8244f09ce8a7ff394626bdb6f80" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/NewtonIteration_Ani.gif/450px-NewtonIteration_Ani.gif" />
                 </>);
                 break;
             case "inverso":

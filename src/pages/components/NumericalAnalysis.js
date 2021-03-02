@@ -8,11 +8,11 @@ const NumericalAnalysis = ({ showDesc, onToggle }) => {
             allow for calculations that are quick, effective, and efficient.
             They have increased the speed with which calculations and approximations are done.</p>
             <p> There are several reasons why numerical analysis is necessary:
-            <ul>
-                <li>The types of problems studied by numerical analysisare continuous
-                and have infinite solutions, thus approximations are necessary.</li>
-                <li>Algorithms that calculate exact solutions are inefficient</li>
-            </ul>
+                <ul>
+                    <li>The types of problems studied by numerical analysisare continuous
+                    and have infinite solutions, thus approximations are necessary.</li>
+                    <li>Algorithms that calculate exact solutions are inefficient</li>
+                </ul>
             </p>
             </div>) : (<h1 className="intro-question" style={{textAlign: "center"}}>What is Numerical Analysis?</h1>) } <br/>
         </div>
